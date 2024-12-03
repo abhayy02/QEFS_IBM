@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Activity5 Suite">
+    <test name="Activity5 Tests">
+        <!-- Run Header Tests -->
+        <groups>
+            <run>
+                <include name="HeaderTests" />
+                <include name="ButtonTests" />
+            </run>
+        </groups>
+
+        <classes>
+            <class name="Activity_5"/>
+        </classes>
+    </test>
+</suite>
